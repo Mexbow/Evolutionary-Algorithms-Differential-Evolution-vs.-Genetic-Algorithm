@@ -1,30 +1,43 @@
 # 🔬 Evolutionary Algorithms: Differential Evolution vs. Genetic Algorithm
-This project implements and compares two powerful evolutionary optimization algorithms: Differential Evolution (DE) and Genetic Algorithm (GA). Both algorithms are applied to a suite of benchmark functions including:
 
-🌀 Ackley
+This project implements and compares two powerful evolutionary optimization algorithms: **Differential Evolution (DE)** and **Genetic Algorithm (GA)**. Both algorithms are applied to a suite of benchmark functions to explore their performance in solving complex, non-linear optimization problems.
 
-🏔️ Bukin
+## 📌 Benchmark Functions
 
-✖️ Cross-in-Tray
+- 🌀 **Ackley**
+- 🏔️ **Bukin**
+- ✖️ **Cross-in-Tray**
+- 🌊 **Drop-Wave**
+- 🍳 **EggHolder**
 
-🌊 Drop-Wave
+Each function is visualized in both **2D** and **3D** plots, highlighting the best solution found by each algorithm on the function’s surface.
 
-🍳 EggHolder
+---
 
-Each function is visualized in both 2D and 3D with the best solution found by each algorithm plotted on the surface. The goal is to showcase the behavior and performance of DE and GA in continuous, non-linear optimization tasks.
+## ✅ Features
 
-✅ Features
-Differential Evolution (DE) implementation
+- 🔁 Differential Evolution (DE) implementation
+- 🧬 Genetic Algorithm (GA) with:
+  - Crossover
+  - Mutation
+  - Roulette Wheel Selection
+- 🧠 Optimization over 5 well-known benchmark functions
+- 📈 2D & 3D function visualization using **Matplotlib**
+- 🐍 Fully implemented in **Python** with **NumPy**
 
-Genetic Algorithm (GA) with crossover, mutation, and roulette selection
+---
 
-Optimization over 5 well-known benchmark functions
+## 📊 Output
 
-2D & 3D visualizations using Matplotlib
+- Prints **best fitness per generation** for each algorithm
+- Displays **2D contour plots** and **3D surface plots**
+- Shows best-found solution points for DE and GA on each function
 
-Python & NumPy based
+---
 
-📊 Output
-Prints best fitness per generation
+## 🛠️ Getting Started
 
-Visualizes best solution found by each algorithm on each function
+Clone the repo and run:
+
+```bash
+EA.py
