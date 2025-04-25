@@ -44,6 +44,16 @@ Each function is visualized in both **2D** and **3D** plots, highlighting the be
 ![image](https://github.com/user-attachments/assets/bb19fee0-688d-4fbe-97ef-ac53da8748ee)
 
 ---
+## 📎 License
+
+This project is open-source under the MIT License.
+
+---
+
+## 🔗 References
+
+Benchmark function definitions were adapted from the collection maintained by SigOpt and Surjanovic & Bingham (Simon Fraser University):  
+🔗 [https://www.sfu.ca/~ssurjano/](https://www.sfu.ca/~ssurjano/)
 
 ## 🛠️ Getting Started
 
