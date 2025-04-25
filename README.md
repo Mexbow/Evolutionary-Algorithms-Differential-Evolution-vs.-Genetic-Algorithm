@@ -41,6 +41,7 @@ Each function is visualized in both **2D** and **3D** plots, highlighting the be
 - Prints **best fitness per generation** for each algorithm
 - Displays **2D contour plots** and **3D surface plots**
 - Shows best-found solution points for DE and GA on each function
+![image](https://github.com/user-attachments/assets/bb19fee0-688d-4fbe-97ef-ac53da8748ee)
 
 ---
 
